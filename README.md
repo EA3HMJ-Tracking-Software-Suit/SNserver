@@ -1,4 +1,22 @@
 # SNserver
-This program is a noise measurement manager that communicates with SigDigger or SpectraVue to obtain the noise figure (SN) and send it to the DriverDish program.
+This server enables the possibility to chose from two sources of Data: SigDigger or SpectraVue.
 
-![image](https://github.com/EA3HMJ-Tracking-Software-Suit/SNserver/assets/2368602/378b0eb7-56ce-4f66-8bd1-9c751ec15015)
+<img src="https://github.com/ea3hmj/EME/raw/main/img/SD1.jpg" width="640">
+
+<img src="https://github.com/ea3hmj/EME/raw/main/img/SV.jpg" width="640">
+
+<img src="https://github.com/ea3hmj/EME/raw/main/img/SVySNS.jpg" width="640">
+
+With SigDigger running, open the "Channel Inspection" menu:
+
+<img src="https://github.com/ea3hmj/EME/raw/main/img/SD2.jpg" width="640">
+
+In the "Data Logger" menu, you must configure the TCP data taken from SN Server:
+
+<img src="https://github.com/ea3hmj/EME/raw/main/img/SD3.jpg" width="640">
+
+When all configurations are settle, open first SpectaVue and SigDigger.
+After that, run DriverDish and press start on the server, chosing from SigDigger or SpectraVue.
+
+<img src="https://github.com/ea3hmj/EME/raw/main/img/DDtotal.jpg" width="640">
+
